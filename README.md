@@ -1,6 +1,8 @@
-## Data Contamination Quiz: A Tool to Detect and Estimate Contamination in Large Language Models ![Static Badge](https://img.shields.io/badge/arXiv-red?style=plastic&logo=arXiv&logoColor=orange&link=https%3A%2F%2Farxiv.org%2Fabs%2F2311.06233)
+## Data Contamination Quiz: A Tool to Detect and Estimate Contamination in Large Language Models ![Static Badge](https://img.shields.io/badge/TACL-0038FF?style=flat) ![Static Badge](https://img.shields.io/badge/ACL%202025-CC0030?style=flat)
 
-This repository hosts the codebase for implementing the quiz-based method proposed in the paper entitled "[Data Contamination Quiz: A Tool to Detect and Estimate Contamination in Large Language Models](https://arxiv.org/abs/2311.06233)," authored by Shahriar Golchin* and Mihai Surdeanu.
+This repository hosts the codebase for implementing the quiz-based method proposed in the paper entitled "[Data Contamination Quiz: A Tool to Detect and Estimate Contamination in Large Language Models](https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.20/132117)," authored by Shahriar Golchin* and Mihai Surdeanu.
+
+Explore more resources related to this paper: [video](https://drive.google.com/file/d/1SQKsddbg7eVhKyjOMxptQLR0o_AAd-tT/view?usp=sharing), [poster](https://drive.google.com/file/d/1tJUKKloRfIotoJt9A3HkOm_KzVoTTMJ8/view?usp=sharing), and [media](https://thenewstack.io/how-to-detect-and-clean-up-data-contamination-in-llms/).
 
 ## Overview
 
