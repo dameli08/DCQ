@@ -37,7 +37,10 @@ class QuizGeneration(ExperimentResultSaver):
         if index == 0:
             logger.info(f"Input prompt:\n\n{formatted_prompt}")
         self.df.at[index, "generated_options"] = self.openai_client.get_text(
-            text=formatted_prompt, model="gpt-4-0613", max_tokens=4000, temperature=1.0
+            text=formatted_prompt,
+            model=self.args.model,
+            max_tokens=4000,
+            temperature=1.0,
         )
 
     def generate_all_quiz_options(self):

@@ -44,6 +44,14 @@ class QuizGenerationArgumentParser:
             "present in the CSV file.",
         )
 
+        self.parser.add_argument(
+            "--model",
+            type=str,
+            default="gpt-4-0613",
+            help="OpenAI model snapshot used for quiz option generation. "
+            "(default: %(default)s)",
+        )
+
     def parse_args(self):
         args = self.parser.parse_args()
         return args
